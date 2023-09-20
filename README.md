@@ -78,17 +78,37 @@
 - Building the images for the first time would take quite a while.
 - Once everything is completed succesfully, you'll see a **done!** message in the terminal at the end.
 - Now open the browser, enter the ip address (the one that you noted down) & you should see the signage page.
-- **Step 1 (client side):** Enter client's details & click _Proceed_. You should get a key (next step).
+- **Step 1 (customer side):** Enter customer's details & click _Proceed_. You should get a key (next step).
 ![Client Browser Screenshot](./images/client-browser.png)
-- **Step 2:** Copy that key from client's browser & head over to our [Admin Setup](http://dev.internal.pickcel.com/adminv5/). Do it on your system, not client's.
+- **Step 2:** Copy that key from client's browser & head over to our [Admin side](http://dev.internal.pickcel.com/adminv5/). Do it on your system, not client's.
 ![Client Browser Step 2 Screenshot](./images/client-browser-step-2.png)
 - Navigate to **Onsite** section from the side navbar.
-- Click on _Add Onsite Partner_ button on the top left.
-- There paste the client key & select number of screens & expiry date.
+- Click on _Add Onsite Partner_ button on the top left. A modal should appeat.
+- There paste the client key (the key generated on customer's system) & select number of screens & expiry date.
 ![Admin Side Generate License Key Screenshot](./images/admin-add-partner.png)
-- Click **Apply** button & you'll get a license key. You'll have to enter this key on client's system.
+- Click **Apply** button & you'll get a license key. You'll have to enter this key on customer's system.
 - **Step 3**: So continuing from **Step 2**, click on _Apply_ button in & you'll be asked to paste the received key. Enter/paste the key that you generated from our Admin setup & click _Apply_
 ![Client Browser Step 3 Screenshot](./images/client-browser-step-3.png)
-- You should see the client's details - email, password, number of screens assigned & expiry date.
+- You should see the customer's details - email, password, number of screens assigned & expiry date.
 ![Client Browser Step 4 Screenshot](./images/client-browser-step-4.png)
-- Now just client on _Proceed to login_ to login & you're good to go.
+- Now just click on _Proceed to login_ to login & you're good to go.
+![Client Browser Step 5 (First login) Screenshot](./images/client-browser-step-5.png)
+
+
+## Updating an existing user's license
+- Now when an existing customer want's to get their license extended or number of screens increased, we'll give them a new license key with their required settings.
+- Head over to our [Admin side](http://dev.internal.pickcel.com/adminv5/), & navigate to **Onsite** section from the side navbar.
+- Here you can search for customer using their name/email. Click on it once you found it.
+![Admin Side Update License Search Screenshot](./images/admin-update-license-1.png)
+- You'll see a screen like this. Here, click on the edit button (that pencil icon).
+![Admin Side Update License Edit Button Screenshot](./images/admin-update-license-2.png)
+- You should see a modal with fields pre-filled with existing user's details. So from here, you can change the number of screens & expiry date (of course other details too) & generate a new license key.
+![Admin Side Update License Edit Form Screenshot](./images/admin-update-license-3.png)
+- Once you're done with the changes, click on _Update_ button. You'll get a new key.
+![Admin Side Update License Updated Key Screenshot](./images/admin-update-license-4.png)
+- This new key will be appled on customer's system. Click on the top right profile button & then click on _Update license_.
+![Client Side Update License Button Screenshot](./images/client-update-license-1.png)
+- You'll see a modal with text area where you'll have to **paste the new key**.
+![Client Side Paste Updated Key Screenshot](./images/client-update-license-2.png).
+- Click on _Apply_ button to apply the new licence key. You should see the new expiry date & number of screens assigned.
+![Client Side Update Success Screenshot](./images/client-update-license-3.png).
