@@ -8,10 +8,10 @@
 
 **Note: You need to have an internet connection for the installation steps.**
 
-- Install `curl` & `ifconfig` (for knowing the IP address of your network in case you don't know it already.)
+- Install `curl`, `git` & `ifconfig` (for knowing the IP address of your network in case you don't know it already.)
 
   ```
-  sudo apt-get install curl net-tools
+  sudo apt-get install curl git net-tools
   ```
 
 - Make sure that Node.js & Docker are installed.
@@ -57,7 +57,17 @@
 
 - To know your network's IP address, you can run the `ifconfig` command & note down the required IP address. It will be required in a later step.
 
-- Using `cd` command, navigate & go inside the _docker-pickcelv3_ folder.
+- Now clone the _signage-on-premise-v4_ repository.
+
+  ```
+  git clone --branch dev https://github.com/pickcel-LQ/signage-on-premise-v4.git
+  ```
+
+  It will ask for GitHub credentials. Enter them & hit `Enter`.
+
+  ![Git clone screenshot](./images/git-clone.png) 
+
+- Once the repository is cloned, Using `cd` command, navigate & go inside the _signage-on-premise-v4_ folder.
 
 - By this point, Node & Docker should be installed & IP address have been should be noted down. These are the prerequisites for the next step.
 
