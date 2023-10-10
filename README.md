@@ -60,12 +60,12 @@
 - Now clone the _signage-on-premise-v4_ repository.
 
   ```
-  git clone --branch dev https://github.com/pickcel-LQ/signage-on-premise-v4.git
+  git clone --branch main https://github.com/pickcel-LQ/signage-on-premise-v4.git
   ```
 
   It will ask for GitHub credentials. Enter them & hit `Enter`.
 
-  ![Git clone screenshot](./images/git-clone.png) 
+  ![Git clone screenshot](./images/git-clone.png)
 
 - Once the repository is cloned, Using `cd` command, navigate & go inside the _signage-on-premise-v4_ folder.
 
@@ -104,7 +104,7 @@
 - **Step 1 (customer side):** Enter customer's details & click _Proceed_. You should get a key (next step).
   ![Client Browser Screenshot](./images/client-browser.png)
 
-- **Step 2:** Copy that key from client's browser & head over to our [Admin side](http://dev.internal.pickcel.com/adminv5/). Do it on your system, not client's.
+- **Step 2:** Copy that key from client's browser & head over to our [Admin side](http://console.pickcel.com/adminv5/). Do it on your system, not client's.
   ![Client Browser Step 2 Screenshot](./images/client-browser-step-2.png)
 
 - Navigate to **Onsite** section from the side navbar.
@@ -127,7 +127,7 @@
 ## Updating an existing user's license
 
 - Now when an existing customer want's to get their license extended or number of screens increased, we'll give them a new license key with their required settings.
-- Head over to our [Admin side](http://dev.internal.pickcel.com/adminv5/), & navigate to **Onsite** section from the side navbar.
+- Head over to our [Admin side](http://console.pickcel.com/adminv5/), & navigate to **Onsite** section from the side navbar.
 - Here you can search for customer using their name/email. Click on it once you found it.
   ![Admin Side Update License Search Screenshot](./images/admin-update-license-1.png)
 - You'll see a screen like this. Here, click on the edit button (that pencil icon).
