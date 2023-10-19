@@ -26,23 +26,23 @@
 
   If they are installed, these commands would list the versions without any errors.
 
-- To install node.js,
+- If Node.js is not installed, then read the following steps to install it:
 
   1. Install [node version manager (nvm)](https://github.com/nvm-sh/nvm#installing-and-updating)
      ```
      curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
      ```
-  2. Verify if `nvm` is properly installed or not using
+  1. To pick up the `nvm` command
+     ```
+     source ~/.bashrc
+     ```
+  1. Verify if `nvm` is properly installed or not using
      ```
      nvm --version
      ```
-  3. Then install Node.js (version 18) using
+  1. Then install Node.js (version 18) using
      ```
      nvm install 18
-     ```
-  4. To pick up the `nvm` command
-     ```
-     source ~/.bashrc
      ```
 
 - To install Docker, go to their [installation page](https://docs.docker.com/engine/install/#server), choose your operating system from the list & follow the instructions.
@@ -79,13 +79,13 @@
      cd ./setup
      ```
 
-  2. Install the dependencies.
+  1. Install the dependencies.
 
      ```
      npm install
      ```
 
-  3. Run the setup command.
+  1. Run the setup command.
      ```
      npm run docker-setup
      ```
